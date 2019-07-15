@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-stg
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-stg
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.52.215.150.204.nip.io
+  pipelines: {}
